@@ -10,4 +10,3 @@ Para usarlo solo clona el repositorio y tambien instala las dependencias.
 npm install
 npm run dev
 ```
-
