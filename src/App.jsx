@@ -1,12 +1,11 @@
-import {Header} from './components/header/Header.jsx'
+import { Home } from "./components/Pages/Home"
 
 function App() {
   
 
   return (
     <main>
-			<Header />
-      
+      <Home />
     </main>
   )
 }
