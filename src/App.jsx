@@ -4,7 +4,7 @@ function App() {
   
 
   return (
-    <main className="w-full h-svh">
+    <main className="w-svw h-svh">
       <Home />
     </main>
   )
