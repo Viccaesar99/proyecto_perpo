@@ -1,12 +1,6 @@
 # Proyecto Perpo
 
-Un simple portafolio que estoy desarrollando con el objetivo de que sea personalizable
+## Desarrollo del proyecto
 
-Para usarlo solo clona el repositorio y tambien instala las dependencias.
+La idea es que sea un portafolio ya preparado para hacer mas facil es desarrollo de uno.
 
-> Ojo aun no recomiendo usarlo ya que aun no he desarrollado nada
-
-```node
-npm install
-npm run dev
-```
