@@ -1,6 +1,6 @@
-export function Titulo({value = "Titulo"}) {
+export function Titulo({value = "Titulo", style}) {
 
 	return (
-		<h1 className='text-2xl font-semibold'>{value}</h1>
+		<h1 className={style}>{value}</h1>
 	);
 }

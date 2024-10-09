@@ -1,19 +1,18 @@
-import {BotonNav} from './Boton.jsx'
 import { Link } from 'react-router-dom';
 
-export function Nav(){
+export function Nav({styles = "", stylesLink}){
     return (
-        <nav className='w-1/3 flex items-center justify-evenly'>
-            <Link className="text-md font-bold font-mono" to="/" >
+        <nav className={styles}>
+            <Link className={stylesLink} to="/" >
                 Home
             </Link>
-            <Link className="text-md font-bold font-mono" to="/projects" >
+            <Link className={stylesLink} to="/projects" >
                 Proyectos
             </Link>
-            <Link className="text-md font-bold font-mono" to="/about" >
+            <Link className={stylesLink} to="/about" >
                 Sobre mi
             </Link>
-            <Link className="text-md font-bold font-mono" to="/contact" >
+            <Link className={stylesLink} to="/contact" >
                 Contacto
             </Link>
         </nav>
