@@ -4,7 +4,9 @@ Un simple portafolio que estoy desarrollando con el objetivo de que sea personal
 
 Para usarlo solo clona el repositorio y tambien instala las dependencias.
 
-> Ojo aun no recomiendo usarlo ya que aun no he desarrollado nada
+`git clone https://github.com/Viccaesar99/proyecto_perpo`
+
+`cd proyecto_perpo`
 
 ```node
 npm install
