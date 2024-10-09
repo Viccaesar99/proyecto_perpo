@@ -12,3 +12,6 @@ Para usarlo solo clona el repositorio y tambien instala las dependencias.
 npm install
 npm run dev
 ```
+
+Actualmente el proceso de creacion lo he dejado todo en la branch `desarrollo`
+
