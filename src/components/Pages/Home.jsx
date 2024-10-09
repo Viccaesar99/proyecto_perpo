@@ -1,11 +1,11 @@
-import { Body } from '../body/Body.jsx';
+import { MainInfo } from '../body/MainInfo.jsx';
 
 
 export function Home() {
 
     return (
-        <main className=''>
-            <Body />
+        <main className='min-h-96'>
+            <MainInfo />
         </main>
     );
 }
