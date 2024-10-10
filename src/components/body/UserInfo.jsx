@@ -1,10 +1,10 @@
 import { UserPic } from "./UserPic";
 import { UserName } from "./UserName";
 
-export function UserInfo() {
+export function UserInfo({style = ""}) {
 
     return (
-        <div className="flex items-center justify-center gap-32">
+        <div className={style}>
             <UserPic />
             <UserName />
             
