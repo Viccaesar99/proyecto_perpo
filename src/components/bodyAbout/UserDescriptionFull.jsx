@@ -1,6 +1,10 @@
 export function UserDescriptionFull() {
   return (
     <div className="max-w-4xl">
+      <h2 className="text-2xl font-bold">
+        <strong>Sobre Mi</strong>
+      </h2>
+      <br />
       <p>
         <strong>Desarrollador Web Front-End con +4 años de experiencia</strong>{" "}
         en la creación de interfaces de usuario interactivas y responsivas,
@@ -12,11 +16,13 @@ export function UserDescriptionFull() {
         del código
       </p>
       <br />
-      <p>
+      <hr />
+      <br />
+      <h2 className="text-2xl font-bold">
         <strong>Experiencia Laboral</strong>
-        </p>
+      </h2>
         <br />
-            1. Freelance Front-End Developer (2022 - Actualidad)
+            <h3 className="text-xl font-semibold">1. Freelance Front-End Developer (2022 - Actualidad)</h3>
         <ul className="list-disc list-inside">
             <br />
           <li>
@@ -35,7 +41,8 @@ export function UserDescriptionFull() {
           </li>
         </ul>
         <br />
-        2. Desarrollador Front-End en Startup de SaaS (2020 - 2022)
+        <h3 className="text-xl font-semibold">2. Desarrollador Front-End en Startup de SaaS (2020 - 2022)</h3>
+        
         <ul className="list-disc list-inside">
             <br />
           <li>
@@ -51,7 +58,9 @@ export function UserDescriptionFull() {
           </li>
         </ul>
         <br />
-        3. Desarrollador Junior en Agencia Digital (2018 - 2020)
+        <h3 className="text-xl font-semibold">3. Desarrollador Junior en Agencia Digital (2018 - 2020)</h3>
+        
+        
         <ul className="list-disc list-inside">
             <br />
           <li>
